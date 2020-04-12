@@ -123,7 +123,7 @@ ADSENSORAPP_RESULT_TYPE adsAPI_RW_SPI_Sensor_Reg(REG_RW_MODE rw_mode, uint8_t SP
 	    transceive.nTxIncrement = true;	//false
 	    transceive.nRxIncrement = true;
 
-	    transceive.bDMA = false;
+	    transceive.bDMA = true;
 	    transceive.bRD_CTL = false;
 	}
 	else
