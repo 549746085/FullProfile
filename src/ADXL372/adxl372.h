@@ -231,7 +231,7 @@ typedef struct
 #define ADI_ADXL372_ADI_DEVID_VAL       0xADu   /* Analog Devices, Inc., accelerometer ID */
 #define ADI_ADXL372_MST_DEVID_VAL       0x1Du   /* Analog Devices MEMS device ID */
 #define ADI_ADXL372_DEVID_VAL           0xFAu   /* Device ID */
-#define ADI_ADXL372_REVID_VAL           0x02u   /* product revision ID*/
+#define ADI_ADXL372_REVID_VAL           0x03u   /* product revision ID*/
 
 
 #define MEASURE_AUTOSLEEP_MASK		0xBF
