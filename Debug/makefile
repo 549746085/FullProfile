@@ -38,27 +38,26 @@ C_DEPS := $(subst \ ,@, $(C_DEPS))
 C_DEPS := $(foreach var, $(C_DEPS), "$(subst @, ,$(var))")
 
 # All Target
-all: ADuCM3029_Asset_Health
+all: ADXL372_Instant_On_Mode
 
 # Tool invocations
-ADuCM3029_Asset_Health: $(USER_OBJS) $(SRC_OBJS)
+ADXL372_Instant_On_Mode: $(USER_OBJS) $(SRC_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: CrossCore GCC ARM Embedded C Linker'
-	arm-none-eabi-gcc -TC:\CCES\ADuCM3029_Asset_Health/RTE/Device/ADuCM3029/ADuCM3029.ld -Wl,--gc-sections -mcpu=cortex-m3 -mthumb -specs=nosys.specs -o  "ADuCM3029_Asset_Health" @input-file.txt -lm
+	arm-none-eabi-gcc -T"C:\Users\jwang2\OneDrive - Analog Devices, Inc\Documents\GitHub\ADXL372_Instant_On_Mode\ADXL372_Instant_On_Mode/RTE/Device/ADuCM3029/ADuCM3029.ld" -Wl,--gc-sections -mcpu=cortex-m3 -mthumb -specs=nosys.specs -o  "ADXL372_Instant_On_Mode" @input-file.txt -lm
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
 
 # Other Targets
 clean:
-	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) ADuCM3029_Asset_Health
+	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) ADXL372_Instant_On_Mode
 	-@echo ' '
 
 post-build:
-	-arm-none-eabi-objcopy -O ihex ADuCM3029_Asset_Health ADuCM3029_Asset_Health.hex
+	-arm-none-eabi-objcopy -O ihex ADXL372_Instant_On_Mode ADXL372_Instant_On_Mode.hex
 	-@echo ' '
 
-.PHONY: all clean dependents
-.SECONDARY: post-build
+.PHONY: all clean dependents post-build
 
 -include ../makefile.targets

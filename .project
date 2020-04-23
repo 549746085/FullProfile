@@ -111,7 +111,7 @@
 	<variableList>
 		<variable>
 			<name>CCES</name>
-			<value>file:/C:/Analog%20Devices/CrossCore%20Embedded%20Studio%202.6.0</value>
+			<value>file:/C:/Analog%20Devices/CrossCore%20Embedded%20Studio%202.8.0</value>
 		</variable>
 	</variableList>
 </projectDescription>

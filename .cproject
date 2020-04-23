@@ -125,6 +125,7 @@
 								<option id="arm.loader.option.proc.189495548" name="-proc" superClass="arm.loader.option.proc" value=" ADuCM3029" valueType="string"/>
 								<option id="arm.loader.option.sirevision.2086960092" name="-si-revision" superClass="arm.loader.option.sirevision" value=" 1.0" valueType="string"/>
 							</tool>
+							<tool id="arm.toolchain.gcc.objcopy.1051741584" name="CrossCore GCC ARM Embedded Object Copier" superClass="arm.toolchain.gcc.objcopy"/>
 						</toolChain>
 					</folderInfo>
 					<folderInfo id="arm.toolchain.gcc.target.exe.debug.1010656223.system" name="system" resourcePath="system">
@@ -141,6 +142,7 @@
 							<tool id="arm.toolchain.gcc.cpp.linker.80328586" name="CrossCore GCC ARM Embedded C++ Linker" superClass="arm.toolchain.gcc.cpp.linker.1697222226"/>
 							<tool id="arm.toolchain.gcc.archiver.1082758207" name="CrossCore GCC ARM Embedded Archiver" superClass="arm.toolchain.gcc.archiver.1304361718"/>
 							<tool id="arm.loader.248832673" name="ARM Loader Base" superClass="arm.loader.1472505134"/>
+							<tool id="arm.toolchain.gcc.objcopy.2146952526" name="CrossCore GCC ARM Embedded Object Copier" superClass="arm.toolchain.gcc.objcopy"/>
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
@@ -275,6 +277,7 @@
 								<option id="arm.loader.option.proc.1094201071" name="-proc" superClass="arm.loader.option.proc" value=" ADuCM3029" valueType="string"/>
 								<option id="arm.loader.option.sirevision.1602692875" name="-si-revision" superClass="arm.loader.option.sirevision" value=" 1.0" valueType="string"/>
 							</tool>
+							<tool id="arm.toolchain.gcc.objcopy.1506314318" name="CrossCore GCC ARM Embedded Object Copier" superClass="arm.toolchain.gcc.objcopy"/>
 						</toolChain>
 					</folderInfo>
 					<folderInfo id="arm.toolchain.gcc.target.exe.release.1418368472.system" name="system" resourcePath="system">
@@ -291,6 +294,7 @@
 							<tool id="arm.toolchain.gcc.cpp.linker.2019946121" name="CrossCore GCC ARM Embedded C++ Linker" superClass="arm.toolchain.gcc.cpp.linker.1918069058"/>
 							<tool id="arm.toolchain.gcc.archiver.203543165" name="CrossCore GCC ARM Embedded Archiver" superClass="arm.toolchain.gcc.archiver.1864054463"/>
 							<tool id="arm.loader.260132962" name="ARM Loader Base" superClass="arm.loader.242372070"/>
+							<tool id="arm.toolchain.gcc.objcopy.25205933" name="CrossCore GCC ARM Embedded Object Copier" superClass="arm.toolchain.gcc.objcopy"/>
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>

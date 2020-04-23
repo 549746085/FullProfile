@@ -33,7 +33,7 @@
 
 uint8_t gpioMemory[ADI_GPIO_MEMORY_SIZE];
 uint8_t xintMemory[ADI_XINT_MEMORY_SIZE];
-uint8_t FIFO_Buf1[1030] = {0};
+uint8_t FIFO_Buf1[1024] = {0};
 uint8_t ui8Status2, ui8Status;
 bool boInterruptFlag = false;
 uint32_t LowPwrExitFlag;
